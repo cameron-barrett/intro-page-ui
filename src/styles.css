@@ -43,3 +43,46 @@ a.button1:hover{
 	50%{top:0em}
 	100%{top:0em;}
 }
+
+
+/* Play around with changing margin-dir: to just dir: */
+/* Definitely try taking out all the margins in the background, notice what the default size of the div is */
+.background { 
+    position: absolute;
+    background-color: #6f98e4;
+    margin-top:0;margin-left:0;right:0;bottom:0;
+}
+
+/* Remember: using percentages references the size of the div enveloping the current div*/
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align:center;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.header2 {
+    background-color: #999898;
+    padding: 30px;
+    text-align:center;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    height: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
