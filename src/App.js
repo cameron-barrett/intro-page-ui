@@ -16,13 +16,22 @@ export default function App() {
                 border: `solid lightblue` }}>
                 Medium
             </a>
-            <a href="something" class="button1 bouncy" style={{ animationDelay: `0.14s`, border: `solid yellow` }}>
+            <a href="something" 
+                class="button1 bouncy" 
+                style={{ animationDelay: `0.14s`, 
+                border: `solid yellow` }}>
                 Hard
             </a>
-            <a href="something" class="button1 bouncy" style={{ animationDelay: `0.21s`, border: `solid red` }}>
+            <a href="something" 
+                class="button1 bouncy"
+                style={{ animationDelay: `0.21s`, 
+                border: `solid red` }}>
                 Expert
             </a>
-            <a href="something" class="button1 bouncy" style={{ animationDelay: `0.28s`, border: `solid black` }}>
+            <a href="something"
+                class="button1 bouncy" 
+                style={{ animationDelay: `0.28s`, 
+                border: `solid black` }}>
                 Goodluck
             </a>
         </div>
